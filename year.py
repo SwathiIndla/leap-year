@@ -10,9 +10,10 @@ if __name__ == "__main__":
     year_to_check = int(sys.argv[1])
     if  year_to_check >0:
         result = is_leap_year(year_to_check)
+        if result:
+            print(f"{year_to_check} is a leap year.")
+        else:
+            print(f"{year_to_check} is not a leap year.")
     else:
         print("enter a valid input")
-    if result:
-        print(f"{year_to_check} is a leap year.")
-    else:
-        print(f"{year_to_check} is not a leap year.")
+    
