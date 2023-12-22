@@ -15,5 +15,5 @@ if __name__ == "__main__":
         else:
             print(f"{year_to_check} is not a leap year.")
     else:
-        print("enter a valid input")
+        print("enter a valid input.f"{year_to_check} is unvalid")
     
